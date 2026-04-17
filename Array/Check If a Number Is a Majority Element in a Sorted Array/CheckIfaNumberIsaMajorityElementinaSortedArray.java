@@ -10,5 +10,5 @@ class Solution {
         int targetFrequency = hm.get(target) != null ? hm.get(target) : -1;
         if(targetFrequency == -1) return false;
         return targetFrequency > (nums.length / 2);
-    }
+    } 
 }
